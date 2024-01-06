@@ -1,5 +1,4 @@
 {
-    "dart.flutterSdkPath": "C:\\sdk\\Flutter",
     "files.exclude": {
         "*/.ini": true
     },
@@ -29,7 +28,7 @@
     "todo-tree.general.statusBar": "total",
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "jupyter.interactiveWindow.creationMode": "perFile",
+
     "window.zoomLevel": 1,
     "task.allowAutomaticTasks": "on",
     "workbench.settings.applyToAllProfiles": [
