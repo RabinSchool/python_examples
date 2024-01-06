@@ -38,14 +38,14 @@
     "emeraldwalk.runonsave": {
         "commands": [
             {
-                // "match": ".*",
-                // "cmd": "git add . && git commit -m 'autosave' && git push && echo ${env.USERNAME}  ${file}"
+                "match": ".*",
+                "cmd": "git add . && git commit -m 'autosave' && git push && echo ${env.USERNAME}  ${file}"
             },
 
         ]
     },
-    // "files.autoSave": "afterDelay",
+    "files.autoSave": "afterDelay",
     "githubPullRequests.pullBranch": "always",
-    // "files.autoSaveDelay": 5000,
+    "files.autoSaveDelay": 5000,
 
 }
