@@ -1,0 +1,51 @@
+{
+    "dart.flutterSdkPath": "C:\\Src\\Flutter",
+    "files.exclude": {
+        "*/.ini": true
+    },
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "dart.openDevTools": "flutter",
+    "editor.renderWhitespace": "all",
+    "breadcrumbs.enabled": true,
+    "editor.rulers": [150
+    
+    ],
+    "dart.lineLength": 150,
+    "workbench.tree.indent": 25,
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.general.statusBar": "total",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "window.zoomLevel": 1,
+    "task.allowAutomaticTasks": "on",
+    "workbench.settings.applyToAllProfiles": [
+        "files.exclude"
+    ],
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                // "match": ".*",
+                // "cmd": "git add . && git commit -m 'autosave' && git push && echo ${env.USERNAME}  ${file}"
+            },
+
+        ]
+    },
+    // "files.autoSave": "afterDelay",
+    "githubPullRequests.pullBranch": "always",
+    // "files.autoSaveDelay": 5000,
+
+}
