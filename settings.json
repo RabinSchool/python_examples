@@ -45,6 +45,6 @@
     },
     "files.autoSave": "afterDelay",
     "githubPullRequests.pullBranch": "always",
-    "files.autoSaveDelay": 5000,
+    "files.autoSaveDelay": 15000,
 
 }
