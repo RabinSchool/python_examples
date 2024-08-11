@@ -13,7 +13,7 @@ x = thisdict["model"]  # Mustang
 x = thisdict.get("model") # Mustang
 
 #Print all key names in the dictionary, one by one:
-for x in thisdict:
+for x in thisdict.keys():
   print(x)  
 
 # brand
@@ -21,7 +21,7 @@ for x in thisdict:
 # year
 
 #Print all values in the dictionary, one by one:
-for x in thisdict:
+for x in thisdict.values():
   print(thisdict[x])
 
 
