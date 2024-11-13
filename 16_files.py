@@ -14,6 +14,12 @@ def reading_method2(file_name):
   file.close
 
 # פעולה הקוראת שורה מתוך קובץ 
+def reading_method_recommended(file_name):
+  with open(file_name,"r") as file:
+    content = file.read()
+    print (content)
+    
+# פעולה הקוראת שורה מתוך קובץ 
 def reading_method3(file_name):
   with open(file_name,"r") as file:
     content = file.readline()
