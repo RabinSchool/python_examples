@@ -13,7 +13,7 @@ def reading_method2(file_name):
   print (content)
   file.close
 
-# פעולה הקוראת שורה מתוך קובץ 
+#  פעולה הקוראת תוכן של קובץ  ללא צורך בסגירה של הקובץ בסיום
 def reading_method_recommended(file_name):
   with open(file_name,"r") as file:
     content = file.read()
