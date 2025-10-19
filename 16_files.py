@@ -1,9 +1,10 @@
+    
 # פעולה הקוראת תוכן של קובץ שורה אחרי שורה
 def reading_method1(file_name):
   file = open(file_name,"r")
   for line in file:
     print (line)
-  file.close
+  file.close()
 
 
 # פעולה הקוראת תוכן של קובץ 
@@ -11,7 +12,7 @@ def reading_method2(file_name):
   file = open(file_name,"r")
   content = file.read()
   print (content)
-  file.close
+  file.close()
 
 #  פעולה הקוראת תוכן של קובץ  ללא צורך בסגירה של הקובץ בסיום
 def reading_method_recommended(file_name):
